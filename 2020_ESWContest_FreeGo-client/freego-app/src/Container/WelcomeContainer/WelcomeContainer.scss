@@ -1,0 +1,23 @@
+.WelcomeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    height: 400px;
+    width: auto;
+
+    font-size: 45px;
+    padding-top: 150px;
+
+    text-align: center;
+    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+    
+    .User {
+        color: #1b76ff;
+    }
+    
+}
+

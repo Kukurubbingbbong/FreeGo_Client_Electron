@@ -1,0 +1,67 @@
+.SelfContainer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+
+    .NText {
+        position: absolute;
+        top: 200px;
+        left: 180px; 
+    }
+    
+    .ProductName {
+        position: absolute;
+        width: 300px;
+        top: 270px;
+        left: 87px;
+    
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+
+        font-size: 23px;
+        outline: none;
+    }
+    
+    .GoodDay {
+        position: absolute;
+        width: 300px;
+        top: 450px;
+        left: 88px;
+    
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+
+        font-size: 23px;
+        outline: none;
+    }
+    
+    .DText {
+        position: absolute;
+        width: 200px;
+        
+        top: 370px;
+        left: 155px;
+    }
+
+    .Nextbtn {
+        position: absolute;
+        left: 127px;
+        top: 600px;
+        border-radius: 30px;
+	    width: 210px;
+	    height: 63px;
+	    background: hsl(216, 100%, 55%);
+
+	    font-family: 'Roboto', sans-serif;
+	    font-size: 22px;
+
+        color: #ffffff;
+    
+        border: 0;
+        outline: none;
+
+        padding-left: 20px;
+    }
+}
+

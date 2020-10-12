@@ -1,0 +1,44 @@
+.AddContainer {
+    display: flex;
+    width: 480px;
+    height: 800px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+
+    .EnrollText {
+        position: absolute;
+        top: 230px;
+        left: 190px;   
+    }
+
+    .Selfbtn {
+        position: absolute;
+        top: 440px;
+        left: 100px;
+        width: 280px;
+        height: 55px;
+
+        font-size: 17px;
+        border-radius: 4px;
+        background-color: #1B76FF;
+        color: white;
+        border: 0;
+        outline: none;
+    }
+
+    .BarCodebtn {
+        position: absolute;
+        top: 350px;
+        left: 100px;
+        width: 280px;
+        height: 55px;
+
+        font-size: 17px;
+        border-radius: 4px;
+        background-color: #1B76FF;
+        color: white;
+        border: 0;
+        outline: none;
+    }
+}

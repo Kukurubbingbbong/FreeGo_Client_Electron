@@ -1,0 +1,31 @@
+.frame {
+	position: absolute;
+	width: 105px;
+	height: 57px;
+	left: 172px;
+	top: 140px;
+}
+
+.img {
+	position: absolute;
+	left: 122px;
+	bottom: 45px;
+	width: 30px;
+	height: 29px;
+}
+
+.Logo {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 35px;
+	user-select: none;
+
+	width: 102.01px;
+	height: 40.41px;
+
+	background: linear-gradient(to right, #0d4cac, #84aeec);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,200 @@
+.SearchBar {
+    position: absolute;
+
+    width: 430px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+
+    border-radius: 4px;
+    border: 2px solid gray;
+    outline-style: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.Search {
+    background: url('./icon.png');
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    outline: none;
+    left: 410px;
+    top: 33px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.Dsearch {
+    position: absolute;
+    width: auto;
+
+    left: 20px;
+    top: 83px;
+
+    border: 0;
+    outline: none;
+
+    background-color: #1B76FF;
+    color: white;
+
+    border-radius: 3px;
+}
+
+.ProductContainer {
+    position: absolute;
+    width:434px;
+    height: auto;
+
+    left: 20px;
+    top: 110px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+
+    .Product {
+        display: flex;
+        width:434px;
+        height: 120px;
+
+        left: 20px;
+        top: 100px;
+
+        border-radius: 4px;
+        border: 2px solid gray;
+        outline-style: none;
+        margin-bottom: 5px;
+        
+        .ImgContainer {
+            width: 130px;
+            height: 100%;
+
+            background-color: lightgray;
+        }
+
+        .Info {
+            display: flex;
+
+            flex-direction: column;
+            width: 304px;
+            height: 100%;
+
+            .ProName {
+                width: 100%;
+                height: 40px;
+
+                font-size: 25px;
+                padding-left: 10px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .SecondContainer {
+                display: flex;
+
+                .Day {
+                    width: 140px;
+                    height: 80px;
+
+                    font-size: 40px;
+                    text-align: left;
+                    line-height: 70px;
+                    padding-left: 10px;
+                    padding-right: 40px;
+                }
+    
+                .BtnDelete {
+                    width: 100px;
+                    height: 30px;
+                    
+                    border-radius: 7px;
+                    font-size: 15px;
+                    color: white;
+                    text-align: center;
+                    margin-top: 40px;
+                    background-color: #1B76FF;
+                    border: 0;
+                    outline: 0;
+                }
+            }  
+        }
+    }
+}
+
+.Modal {
+    position: absolute;
+    top: 300px;
+    left: 89px;
+
+    outline: none;
+    box-shadow: 1px 2px 10px 7px rgba(201,201,201,1);
+    border-radius: 7px;
+    
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    .TextDelete {
+        width: 240px;
+        height: auto;
+        position: absolute;
+        
+        left: 30px;
+        top: 40px;
+        text-align: center;
+    }
+    .Yes {
+        width: 100px;
+        height: 33px;
+        position: absolute;
+        top: 155px;
+        left: 30px;
+        border-radius: 6px;
+        background: hsl(216, 100%, 55%);
+        color: white;
+        line-height: 0px;
+        
+        font-size: 18px;
+        border: 0;
+        outline: none;
+        
+    }
+
+    .No {
+        width: 100px;
+        height: 34px;
+        position: absolute;
+        top: 155px;
+        left: 168px;
+        border-radius: 6px;
+        background: white;
+
+        font-size: 18px;
+        outline: none;
+        border: 2px solid lightgray;
+    }
+}
+
+.PlusButton {
+    position: absolute;
+    left: 400px;
+    top: 720px;
+    width: 64px;
+    height: 64px;
+    background: url('./add.png');
+
+    border: none;
+    outline: none;
+
+    &:hover {
+        cursor: pointer;
+    } 
+}
